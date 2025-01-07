@@ -1,0 +1,58 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/Images/background.jpg');
+    background-size: cover; /* Ensure the image covers the entire screen */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-attachment: fixed; /* Keep the background fixed when scrolling */
+    color: white; /* Adjust text color for readability */
+}
+
+/* Heading styles */
+h1, h2 {
+    text-align: center;
+    color: Black; /* White text for better visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Subtle shadow for readability */
+}
+
+/* Table styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add a shadow to the table */
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background for the table */
+    color: White; /* White text for table content */
+}
+
+table, th, td {
+    border: 1px solid #ddd; /* Table borders */
+}
+
+th, td {
+    padding: 10px;
+    text-align: center; /* Center-align text in cells */
+}
+
+/* Header row styles */
+th {
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent header background */
+    color: White; /* Ensure white text for visibility */
+}
+
+/* Button styles */
+button {
+    padding: 5px 10px;
+    margin-top: 5px;
+    background: #4CAF50; /* Green button background */
+    color: white; /* White button text */
+    border: none; /* Remove border */
+    cursor: pointer; /* Show pointer on hover */
+    transition: background 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+    background: #45a049; /* Darker green on hover */
+}
